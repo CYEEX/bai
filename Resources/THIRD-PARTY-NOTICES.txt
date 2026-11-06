@@ -1,0 +1,22 @@
+掰 — Third-party notices
+
+The HID matching parameters and feature report decoding in Sources/Sensor.swift
+are informed by / adapted from LidAngleSensor by Sam Gold:
+https://github.com/samhenrigold/LidAngleSensor
+Reviewed revision: f7e4e5cb46fe13a518091ce5d47f0ec2e3fecd80
+Files reviewed: LidAngleSensor.swift and HardwareCompat.swift
+License: Apache License, Version 2.0 (see Apache-2.0.txt).
+
+Changes: new serial background sampling service, lifecycle/retry/error handling,
+validation and a separate party-game interface. Original UI assets are not included. This app is an independent project, not affiliated with MediaStorm,
+STORMCREW, Sam Gold, or Apple.
+
+Audio asset: Resources/Creak.wav
+Copied, at the user’s explicit request, from their installed
+/Applications/LidAngleSensor.app/Contents/Resources/CREAK_LOOP.wav
+Installed app version: 1.1
+SHA-256: 9fdbeee4bbdcf7d1bc5bc3d2a945fb547299d1903a95e11f5c3b3fe4fd06c220
+The upstream README credits the sound effect to LEGO Batman 3: Beyond Gotham.
+This asset is not original audio by the authors of this party game and is not
+covered by the party game's MIT grant. The original file is unmodified; playback
+rate and a short release envelope are applied at runtime.
